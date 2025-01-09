@@ -98,6 +98,9 @@ sns.heatmap(corr, annot=True, cmap='coolwarm', fmt='.2f')
 ---
 
 ### **4. Advanced Visualizations**
+- **Pairplot**: Visualized relationships between multiple features with `Survived` as the hue to uncover feature interactions and survival patterns.
+- **Violin Plot**: Visualized age distribution by survival and class, showing that children in first and second class had the highest survival rates.
+- **Stacked Bar Plot**: Revealed the proportion of survivors across different classes.
 - **Violin Plot**: Visualized age distribution by survival and class, showing that children in first and second class had the highest survival rates.
 - **Stacked Bar Plot**: Revealed the proportion of survivors across different classes.
 
